@@ -10,7 +10,7 @@ This project demonstrates a fully automated AWS deployment pipeline using:
 - Application Load Balancer (Traffic routing)
 - CloudWatch (Logging)
 
-The sample application is a Log Analyzer API developed in Python to process log files and identify error patterns, warnings, and service hotspots.
+The application being deployed is a Log Analyzer API developed in Python to process log files and identify error patterns, warnings, and service hotspots.
 
 ## Architecture
 
@@ -27,3 +27,4 @@ Terraform provisions:
 CI/CD Pipeline:
 
 GitHub Actions builds the container image and pushes it to ECR automatically on every commit.
+![Architecture Diagram](images/diagram.png)
