@@ -1,5 +1,7 @@
 # ECS Log Analyzer – DevOps Build Lab
 
+![Architecture Diagram](images/diagram.png)
+
 This project demonstrates a fully automated AWS deployment pipeline using:
 
 - Terraform (Infrastructure as Code)
@@ -27,4 +29,3 @@ Terraform provisions:
 CI/CD Pipeline:
 
 GitHub Actions builds the container image and pushes it to ECR automatically on every commit.
-![Architecture Diagram](images/diagram.png)
